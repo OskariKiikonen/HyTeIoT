@@ -30,11 +30,12 @@ let chartTempData = [
   
   if(chartHumData[1][0] === 'Please wait...'){
     chartHumData.pop();
-  if(chartTempdata[1][0] === 'Please wait...')
+  if(chartTempData[1][0] === 'Please wait...')
     chartTempData.pop();
   }
   
-  chartHumData.push([String(convertUTCDateToLocalDate(new Date(temphum.Timestamp))).split(' ')[4], parseInt(temphum.Hum])
+  chartHumData.push([String(convertUTCDateToLocalDate(new Date(temphum.Timestamp))).split(' ')[4], parseInt(temphum.Hum)])
+   chartTempData.push([String(convertUTCDateToLocalDate(new Date(temphum.Timestamp))).split(' ')[4], parseInt(temphum.Temp)])
 
   return <div key={humtempkey++}>
     <b>Klo:</b> {String(convertUTCDateToLocalDate(new Date(temphum.Timestamp))).split(' ')[4]} &nbsp;
