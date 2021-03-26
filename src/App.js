@@ -1,6 +1,10 @@
 import React, { useState} from 'react';
 import './App.css';
 import Chart from "react-google-charts";
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
+import Portfolio from './components/Portfolio';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   const initWeather = [];
@@ -44,39 +48,48 @@ let chartTempData = [
   </div>
   }) 
   return (
-    <div className="App">
-      {rows()}
-      <div>
-        <Chart
-          width={1000}
-          height={300}
-          chartType="ColumnChart"
-          loader={<div>Loading Chart</div>}
-          data={chartHumData}
-          options={{
-            title: 'Ilmankosteus',
-            hAxis: {
-              minValue: 0,
-            },
-            
-          }}
-        />
-        </div>
-        <div>
-        <Chart
-          width={1000}
-          height={300}
-          chartType="LineChart"
-          loader={<div>Loading Chart</div>}
-          data={chartTempData}
-          options={{
-            title: 'Lämpötila',
-            vAxis: { minValue: 0 },
-          }}
-        />
-      </div>
+    <Router>
+      <div className="App">
+      <Header />
+      <Switch>
+         <Route path="/portfolio">
+            <Portfolio />
+        </Route>
+        <Route path="/">
+          {rows()}
+          <div>
+            <Chart
+              width={1300}
+              height={400}
+              chartType="ColumnChart"
+              loader={<div>Loading Chart</div>}
+              data={chartHumData}
+              options={{
+                title: 'Ilmankosteus',
+                chartArea: { width: '50%' },
+                vAxis: { minValue: 0 }, 
+              }}
+            />
+          </div>
+          <div>
+            <Chart
+              width={1300}
+              height={400}
+              chartType="LineChart"
+              loader={<div>Loading Chart</div>}
+              data={chartTempData}
+              options={{
+                title: 'Lämpötila',
+                chartArea: { width: '50%' },
+                vAxis: { minValue: 0 },
+              }}
+            />
+          </div>
+        </Route>
+      </Switch>
+      <Footer />
     </div>
+  </Router>
   );
 }
-
 export default App;
