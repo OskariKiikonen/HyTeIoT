@@ -3,7 +3,7 @@ import React from 'react';
 function Portfolio() {
     return (
       <div>
-        Portfolion tekstiä
+        Olen 16- vuotias hiljainen ja rauhallinen poika. Kiinnostuksen kohteisiini kuuluu uusi teknologia ja autot. Harrastuksiini kuuluu videopelaaminen ja kuntosalilla käyminen.
       </div>
     )   
 }
