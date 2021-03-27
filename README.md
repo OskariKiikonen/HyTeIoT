@@ -8,6 +8,7 @@ IoT
 2. Datan lähettäminen, n pilvipalveluun internetin välityksellä
 3. Datan prosessointi
 4. Käyttöliittymä, jolla nähdään tulokset
+![joo](saaasema.jpg)
 
 ## Sääasemajärjestelmän toimintakaavio  
 ### Laitteistot
