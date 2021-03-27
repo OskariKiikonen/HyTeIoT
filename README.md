@@ -8,9 +8,10 @@ IoT
 2. Datan lähettäminen, n pilvipalveluun internetin välityksellä
 3. Datan prosessointi
 4. Käyttöliittymä, jolla nähdään tulokset
-![joo](saaasema.jpg)
+
 
 ## Sääasemajärjestelmän toimintakaavio  
+![joo](saaasema.jpg)
 ### Laitteistot
 * Particle Photon
 * DHT11 sensori
@@ -30,5 +31,3 @@ https://fi.wikipedia.org/wiki/Esineiden_internet
 https://www.youtube.com/watch?v=m6eExiGqtS0  
 https://www.youtube.com/watch?v=nzg_x1-EFpc&list=PLtbOrywM-BA8qzTn5fkzhlcaR3d92HYO7  
 https://www.youtube.com/watch?v=2p7V_6WzVOw&list=PLtbOrywM-BA8qzTn5fkzhlcaR3d92HYO7  
-
-Lorem Ipsum
