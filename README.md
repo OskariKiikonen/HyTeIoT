@@ -21,11 +21,11 @@ Sääasema hyödyntää Microsoft Azuren pilvipalveluja.
 ### Toiminta  
 ## Käytetyt kehitysympäristöt  
 ## Termihakemisto  
-Particle Photon = kehityskortti
-DHT11 = lämpöä ja ilmankosteutta mittaava sensori
-Microsoft AZURE = Pilvipalvelu
+Particle Photon = kehityskortti  
+DHT11 = lämpöä ja ilmankosteutta mittaava sensori  
+Microsoft AZURE = Pilvipalvelu  
 ## Viitteet  
-https://fi.wikipedia.org/wiki/Esineiden_internet
-https://www.youtube.com/watch?v=m6eExiGqtS0
-https://www.youtube.com/watch?v=nzg_x1-EFpc&list=PLtbOrywM-BA8qzTn5fkzhlcaR3d92HYO7
-https://www.youtube.com/watch?v=2p7V_6WzVOw&list=PLtbOrywM-BA8qzTn5fkzhlcaR3d92HYO7
+https://fi.wikipedia.org/wiki/Esineiden_internet  
+https://www.youtube.com/watch?v=m6eExiGqtS0  
+https://www.youtube.com/watch?v=nzg_x1-EFpc&list=PLtbOrywM-BA8qzTn5fkzhlcaR3d92HYO7  
+https://www.youtube.com/watch?v=2p7V_6WzVOw&list=PLtbOrywM-BA8qzTn5fkzhlcaR3d92HYO7  
