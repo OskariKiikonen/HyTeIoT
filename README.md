@@ -5,7 +5,7 @@
 * IoT:n tarkoituksena on yhdistää kodinkoneita puhelimiin ja tietokoneisiin jolla niitä voidaan ohjata.  
 IoT
 1. ***Laitteet***, jolla kerätään dataa
-2. ***Datan lähettäminen***, n pilvipalveluun internetin välityksellä
+2. ***Datan lähettäminen***, pilvipalveluun internetin välityksellä
 3. ***Datan prosessointi***
 4. ***Käyttöliittymä***, jolla nähdään tulokset
 
