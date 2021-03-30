@@ -12,6 +12,6 @@ function Footer() {
     background: '#333333',
     color: '#ffffff',
     textAlign: 'right',
-    padding:'100%',
+    padding:'1%',
   }
   export default Footer;

@@ -59,7 +59,7 @@ let chartTempData = [
           {rows()}
           <div>
             <Chart
-              width={1300}
+              width={1200}
               height={400}
               chartType="ColumnChart"
               loader={<div>Loading Chart</div>}
@@ -73,7 +73,7 @@ let chartTempData = [
           </div>
           <div>
             <Chart
-              width={1300}
+              width={1200}
               height={400}
               chartType="LineChart"
               loader={<div>Loading Chart</div>}
@@ -84,6 +84,7 @@ let chartTempData = [
                 vAxis: { minValue: 0 },
               }}
             />
+             <a href="https://github.com/OskariKiikonen/HyTeIoT/blob/master/README.md"target="_BLANK"> Projektin README</a>
           </div>
         </Route>
       </Switch>
