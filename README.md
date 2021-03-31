@@ -1,7 +1,7 @@
 # IoT  
 
 ## Mikä IoT?  
-* Internet of Things eli IoT tarkoittaa esineiden liittämistä internettiin j keräämään dataa.  
+* Internet of Things eli IoT tarkoittaa esineiden liittämistä internettiin ja keräämään dataa.  
 * IoT:n tarkoituksena on yhdistää kodinkoneita puhelimiin ja tietokoneisiin jolla niitä voidaan ohjata.  
 IoT
 1. ***Laitteet***, jolla kerätään dataa
@@ -44,8 +44,12 @@ Pilvipalvelujen hyviä puolia on tietojen säilyvyys ja helppo käyttöisyys.
 Huonoja puolija taas ovat tietoturva riskit.  
 
 ### Ohjelmointi  
+Sääaseman ohjelmointi
 ### Toiminta  
 ## Käytetyt kehitysympäristöt  
+particle pilvikonsoli 
+replit:llä tehtiin käyttöliittymä sääasemalle
+Käytettiin Azurea triggereiden tekemiseen
 ## Termihakemisto  
 Particle Photon = IoT kehityskortti  
 DHT11 = lämpöä ja ilmankosteutta mittaava sensori  
