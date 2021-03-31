@@ -84,7 +84,7 @@ let chartTempData = [
                 vAxis: { minValue: 0 },
               }}
             />
-             <a href="https://github.com/OskariKiikonen/HyTeIoT/blob/master/README.md"target="_BLANK"> Projektin README</a>
+             <a href="https://github.com/OskariKiikonen/HyTeIoT/blob/master/README.md" target="_BLANK" rel="noopener noreferrer"> Projektin README</a>
           </div>
         </Route>
       </Switch>
