@@ -50,6 +50,7 @@ Sääaseman ohjelmointi
 particle pilvikonsoli 
 replit:llä tehtiin käyttöliittymä sääasemalle
 Käytettiin Azurea triggereiden tekemiseen
+Version control githubiin
 ## Termihakemisto  
 Particle Photon = IoT kehityskortti  
 DHT11 = lämpöä ja ilmankosteutta mittaava sensori  
