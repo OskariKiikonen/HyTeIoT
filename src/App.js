@@ -73,7 +73,7 @@ let chartTempData = [
           </div>
           <div>
             <Chart
-              width={1200}
+              width={2000}
               height={400}
               chartType="LineChart"
               loader={<div>Loading Chart</div>}
