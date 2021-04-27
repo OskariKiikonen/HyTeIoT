@@ -49,7 +49,7 @@ Pilvipalvelujen hyviä puolia on tietojen säilyvyys ja helppo käyttöisyys.
 Huonoja puolija taas ovat tietoturva riskit.  
  
 Sääaseman ohjelmointi
-### Toiminta  
+  
 ## Käytetyt kehitysympäristöt  
 particle pilvikonsoli 
 replit:llä tehtiin käyttöliittymä sääasemalle
