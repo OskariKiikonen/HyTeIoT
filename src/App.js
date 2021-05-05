@@ -24,7 +24,7 @@ let chartTempData = [
   ['Please wait...', 0]
 ];
 
-  fetch('https://oppilas-9.azurewebsites.net/api/HttpTriggerCSharp2?code=UTGr5V7/25tVhjuNFr4ujXvJZYHkVzQ80odzBoStbxhcmmnqtWP2lw==&deviceId=2f0035001947393035313138&amount=5')
+  fetch('https://oppilas-9.azurewebsites.net/api/HttpTriggerCSharp2?code=UTGr5V7/25tVhjuNFr4ujXvJZYHkVzQ80odzBoStbxhcmmnqtWP2lw==&deviceId=2f0035001947393035313138&amount=10')
     .then(response => response.json())
     .then(json => setWeather([...json]));
   
